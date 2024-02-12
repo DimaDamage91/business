@@ -1,0 +1,151 @@
+html {
+    font-family: orbitron;
+    font-style: normal;
+    font-size: 16px;
+    
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/**aboutus**/
+.name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    text-shadow: 4px 2px 5px rgba(0,0,0,0.51);
+}
+.conteiner {
+    justify-content: center;
+}
+.spisok {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+li {
+    list-style-type: none;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+li:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/**portfolio**/
+.portfolio {
+    background-image: url(./Images/photo-1518066000714-58c45f1a2c0a.avif);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h4text {
+    font-family: orbitron;
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#h4text1 {
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.portfolio h2, h4 {
+    color: Black;
+    display: flex;
+    justify-content: center;
+}
+.backcolor {
+    background-color: #fff;
+    width: 100%;
+}
+
+
+/**holes**/
+.cards img {
+    height: 250px;
+    width: 350px;
+}
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.holes h2, h4 {
+    display: flex;
+    justify-content: center;
+}
+
+
+/**team**/
+.team {
+    background-image: url(./Images/photo-1537420327992-d6e192287183.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.cards1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.cards1 img {
+    height: 250px;
+    width: 350px;
+    align-items: center;
+}
+#tc {
+   color: #fff;
+   letter-spacing: 3px;
+   font-size: 1.3rem;
+   
+}
+.h2team {
+    display: flex;
+    justify-content: center;
+}
+
+
+/**footer**/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+h2, h3, h4, h5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#fh1 {
+    font-size: 2.5rem;
+}
+
+
